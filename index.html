@@ -1,19 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Threejs Free Course Final Project - BY ANDERSON MANCINI</title>
+    <meta
+      name="description"
+      content="Threejs demo landing page for product visualization using WEBGi"
+    />
 
-<head>
-	<title>WebGi starter</title>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-</head>
+    <meta property="og:url" content="http://drill-webgi-tutorial.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Threejs demo landing page for product visualization using WEBGi"
+    />
+    <meta
+      property="og:description"
+      content="Threejs demo landing page for product visualization using WEBGi"
+    />
+    <meta
+      property="og:image"
+      content="http://drill-webgi-tutorial.vercel.app/assets/images/preview.jpg"
+    />
 
-<body>
-	<div id="webgi-canvas-container">
-		<canvas id="webgi-canvas"></canvas>
-	</div>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="drill-webgi-tutorial.vercel.app" />
+    <meta
+      property="twitter:url"
+      content="http://drill-webgi-tutorial.vercel.app"
+    />
+    <meta
+      name="twitter:title"
+      content="Threejs demo landing page for product visualization using WEBGi"
+    />
+    <meta
+      name="twitter:description"
+      content="Threejs demo landing page for product visualization using WEBGi"
+    />
+    <meta
+      name="twitter:image"
+      content="http://drill-webgi-tutorial.vercel.app/assets/images/preview.jpg"
+    />
 
-	<script src="src/index.ts">
-	</script>
-</body>
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="www.neotix.com.br" />
 
+    <meta charset="UTF-8" />
+
+    <meta name="msapplication-TileColor" content="#F2CE6E" />
+    <meta name="theme-color" content="#F2CE6E" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="nav--bar">
+      <img class="logo" src="assets/logo.png" />
+      <button class="button--navbar">BUY NOW</button>
+    </nav>
+
+    <div class="container">
+      <section class="section first">
+        <div class="section--one--container">
+          <h1>McLaren MP4/2 - 1984</h1>
+          <h3>
+            La McLaren MP4/2 è stata la sedicesima monoposto del team McLaren di
+            Formula 1 e ha gareggiato dal 1984 al 1986, seppure con versioni
+            evolute.
+          </h3>
+          <button class="button--hero button-style">KNOW MORE</button>
+        </div>
+      </section>
+
+      <section class="section second">
+        <div class="section--two--container">
+          <h2>La vettura con più vittorie all'attivo</h2>
+          <p>
+            Guidata da Niki Lauda, poi sostituito da Keke Rosberg nel 1986, ed
+            Alain Prost riuscì a vincere sia il titolo piloti che quello
+            costruttori. La vettura fu progettata da John Barnard ed era spinta
+            dal potente motore V6 TAG Porsche TTE PO1 di 1.500 cm³
+            sovralimentato da 2 turbocompressori.
+          </p>
+          <button class="button--second button-style">KNOW MORE</button>
+        </div>
+        <div class="custom--bg"></div>
+      </section>
+
+      <section class="section third">
+        <div class="section--third--container">
+          <h2>Progettazione</h2>
+          <p>
+            La progettazione risultò essere abbastanza travagliata, in quanto le
+            richieste di John Barnard, che puntava ad una vettura assai
+            innovativa, non erano molto gradite ai motoristi, che denunciavano
+            di non poter organizzare liberamente il loro lavoro. S'innescò un
+            circolo vizioso, dove i telaisti pretendevano che il motore venisse
+            concepito in funzione della scocca, mentre i motoristi pretendevano
+            il contrario. Poiché però l McLaren era la committente, che pagava
+            per vedere realizzato il progetto, la Porsche decise di sottostare
+            alle richieste del suo cliente.
+          </p>
+          <button class="button--third button-style">KNOW MORE</button>
+        </div>
+      </section>
+
+      <section class="section fourth">
+        <div class="section--four--container">
+          <h2>Motorizzazione</h2>
+          <p>
+            A metà stagione 1983 era ormai chiaro che i motori aspirati non
+            avrebbero retto a lungo la competitività dei motori sovralimentati.
+            La decisione della Cosworth di continuare a sviluppare un propulsore
+            aspirato indusse Ron Dennis ad interessarsi della ricerca di un
+            produttore che realizzasse propulsori sovralimentati per la sua
+            scuderia. Tuttavia, non vi erano case disposte a fornire motori al
+            team inglese, poiché già tutti impegnati con altre scuderie. La
+            soluzione fu trovata in casa: da circa un anno, era entrato in
+            società con Mansur Ojjeh, titolare della TAG. Questi si offrì allora
+            di finanziare il progetto di un motore, costruito partendo
+            totalmente da zero. Per far ciò si rivolse alla Porsche, la quale
+            non era intenzionata a tornare in Formula 1, ma disponibile come
+            fornitore di Engineering regolarmente pagata.
+          </p>
+          <button class="button--customize button-style">
+            Guarda il modello
+          </button>
+        </div>
+        <div class="custom--bg"></div>
+      </section>
+
+      <footer>
+        <button class="button--footer button-style">BACK TO TOP</button>
+      </footer>
+    </div>
+
+    <div id="webgi-canvas-container">
+      <canvas id="webgi-canvas"></canvas>
+      <button class="button--customize button--exit button-style">EXIT</button>
+    </div>
+
+    <div class="customizer--container">
+      <ul class="strap--colors">
+        <li class="button--colors yellow"></li>
+        <li class="button--colors red"></li>
+        <li class="button--colors black"></li>
+      </ul>
+    </div>
+
+    <script src="src/index.ts"></script>
+  </body>
 </html>
