@@ -6,6 +6,21 @@ body {
   overscroll-behavior: none;
 }
 
+.first {
+  background-color: rgb(255, 115, 0);
+}
+.second {
+  background-color: aqua;
+}
+
+.third {
+  background-color: blueviolet;
+}
+
+.fourth {
+  background-color: green;
+}
+
 .nav--bar {
   position: absolute;
   display: flex;

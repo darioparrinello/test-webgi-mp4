@@ -75,7 +75,7 @@ async function setupViewer() {
         end: "+=100%",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
       onUpdate,
     })
@@ -116,7 +116,7 @@ async function setupViewer() {
         end: "+=100%",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
       onUpdate,
     })
@@ -154,7 +154,7 @@ async function setupViewer() {
         scrollTrigger: {
           trigger: ".fourth",
           start: "top bottom",
-          end: "+=100%",
+          end: "top top",
           scrub: true,
           immediateRender: false,
         },
@@ -215,12 +215,13 @@ async function setupViewer() {
 
   // KNOW MORE EVENT 3
   document.querySelector(".button--third")?.addEventListener("click", () => {
-    const element_2 = document.querySelector(".fourth");
+    const element_3 = document.querySelector(".fourth");
     window.scrollTo({
-      top: element_2?.getBoundingClientRect().top,
+      top: element_3?.getBoundingClientRect().bottom,
       left: 0,
       behavior: "smooth",
     });
+    console.log("click");
   });
 
   // SCROLL TO TOP
